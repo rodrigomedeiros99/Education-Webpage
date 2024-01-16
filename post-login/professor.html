@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../login-page/css-login.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Portal do Professor</title>
+</head>
+<body>
+        <header class="header">
+            <img src="../midia/personalize-logo.png" alt="logo-header" class="logoNavBar" />
+            <img src="../midia/personalize-logo-header.png" alt="logo-header" class="logo-rock" />
+            <div class="headerBtnGroup">
+              <a href="../index.html">Home</a>
+          </header>
+  <h1 class="bemvindo">Bem-vindo, Professor!</h1>
+  <section id="schedule">
+    <h2 class="postlogintext">Horários de Aulas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+          <th>Disciplina</th>
+        </tr>
+      </thead>
+      <tbody id="schedule-table-body">
+      </tbody>
+    </table>
+  </section>
+
+  <section id="students">
+    <h2 class="postlogintext">Lista de Alunos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Aluno</th>
+          <th>Nota 1</th>
+          <th>Nota 2</th>
+          <th>Média</th>
+          <th>Salvar</th>
+        </tr>
+      </thead>
+      <tbody id="students-table-body">
+      </tbody>
+    </table>
+  </section>
+
+  <script src="scripts-professor.js"></script>
+</body>
+</html>
